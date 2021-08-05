@@ -274,6 +274,14 @@ nav li:hover {
 	 left: -100%;
 	 top: -100%;
 }
+@media (min-width: 40em){
+
+.news{
+    overflow-y: scroll;
+  }
+}
+  
+}
  @media (min-width: 40em) {
 	 .photo img:hover {
 		 width: 250%;
@@ -281,6 +289,7 @@ nav li:hover {
 		 left: -75%;
 		 top: -200%;
 	}
+  
 }
  @media (min-width: 40em) and (orientation: portrait) {
 	.photo img:hover {
@@ -289,9 +298,7 @@ nav li:hover {
 		 left: -100%;
 		 top: -50%;
 	}
-  .news{
-    overflow: scroll;
-  }
+  
 }
  @media (min-width: 60em) {
 	.photo  img:hover {
@@ -303,6 +310,7 @@ nav li:hover {
 	.photo  img:hover ~ img {
 		 left: 175%;
 	}
+  
 }
  @media (min-width: 60em) and (orientation: landscape) {
 	.photo img:hover {
