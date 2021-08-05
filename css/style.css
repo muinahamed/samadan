@@ -369,5 +369,31 @@ nav li:hover {
 .topmargin{
   margin-top: 25px;
   display: flex;
-  flex-direction:row-reverse;
+ 
+}
+
+/* social media */
+
+
+
+.top-sec {
+  border: 1px solid lightgray;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.top-font {
+  width: 250px;
+  height: 50px;
+  background-color: skyblue;
+}
+.fonth:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.3);
+}
+.fontl:hover {
+  cursor: pointer;
+  color: skyblue;
+  transform: scale(1.3);
 }
