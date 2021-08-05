@@ -190,12 +190,15 @@ nav li:hover {
 
 
 .photo {
-	 height: 10vh;
+
 	 display: flex;
-	 justify-content:center;
+	 justify-content:space-around;
 	 align-items: baseline;
 	  background-image: linear-gradient( skyblue,rgba(165, 143, 143, 0.664));
-    margin-bottom: 30px;;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
 }
  .gallery {
 	 display: grid;
@@ -228,7 +231,7 @@ nav li:hover {
 	 transition: all 0.15s ease(downhill);
 	 position: relative;
 	 box-shadow: 0 0 0 #000 0;
-	 opacity: 0.67;
+	 opacity: 0.;
 	 filter: sepia(80%) hue-rotate(180deg);
 }
  .photo img:first-child {
@@ -281,10 +284,10 @@ nav li:hover {
 }
  @media (min-width: 40em) and (orientation: portrait) {
 	.photo img:hover {
-		 width: 300%;
-		 height: 300%;
+		 width: 200%;
+		 height: 200%;
 		 left: -100%;
-		 top: -100%;
+		 top: -50%;
 	}
 }
  @media (min-width: 60em) {
@@ -300,10 +303,10 @@ nav li:hover {
 }
  @media (min-width: 60em) and (orientation: landscape) {
 	.photo img:hover {
-		 width: 300%;
-		 height: 300%;
+		 width: 200%;
+		 height: 200%;
 		 left: -75%;
-		 top: -100%;
+		 top: -50%;
 	}
 .photo img:hover ~ img {
 		 left: 100%;
@@ -316,21 +319,41 @@ nav li:hover {
 
 
 
-.heading1{
-  margin-top: 100px;;
-    color:#4facfe;
-}
-.background{
+/* jjj */
 
-    background-image:linear-gradient( skyblue,rgba(165, 143, 143, 0.664));
+.background1 img{
+    width:300px;
+    height: 200px;
+    border-radius: 20px;
+     
+    margin-top: 14px;
+
+   
+    transform: translateX(-3rem);
+    
+   
+  
+}
+.heading1{
+  padding-top: 20px;
+    color:black;
+}
+.background1{
+
+    background-color:skyblue;
     display: flex;
+    width: 100%;
+    height: 230px;
     border-radius: 15px;
-    
-    
-} 
-.paragraph{
+    margin-left: 10px;
  
+     
+    
+}
+
+.paragraph{
     margin-bottom: 15px;
+    padding-right: 150px;
 }
 .button{
    display:inline-block;
@@ -340,9 +363,11 @@ nav li:hover {
    font-size: .8rem;
    color:#fff;
    background-image:linear-gradient(to right,#4facfe 0%,#00f2fe 100%);
-   border-radius: 4rem;margin-bottom: 10px;;
+   border-radius: 4rem;;
 
 }
-.news{
-  padding: 10px;;
+.topmargin{
+  margin-top: 25px;
+  display: flex;
+  flex-direction:row-reverse;
 }
