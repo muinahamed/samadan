@@ -274,12 +274,12 @@ nav li:hover {
 	 left: -100%;
 	 top: -100%;
 }
-@media (min-width: 40em){
+
 
 .news{
     overflow-y: scroll;
   }
-}
+
   
 }
  @media (min-width: 40em) {
