@@ -289,6 +289,9 @@ nav li:hover {
 		 left: -100%;
 		 top: -50%;
 	}
+  .news{
+    overflow: scroll;
+  }
 }
  @media (min-width: 60em) {
 	.photo  img:hover {
